@@ -12,7 +12,7 @@
     <a href="https://discordapp.com/channels/442252698964721669/443151097398296587">Chat</a>
   </h3>
 
-  <sub>Built with 🦀🕸 by <a href="https://rustwasm.github.io/">The Rust and WebAssembly Working Group</a></sub>
+  <sub>Built with 🦀🕸 by <a href="https://rustwasm.github.io/">The Rust and WebAssembly Working Group, and the Rust WASI-WASM contributors </a></sub>
 </div>
 
 ## About
@@ -33,10 +33,8 @@ If you would like to start learning how to use Rust and WebAssembly together,
 
 ## Building the Book
 
-The book is made using [`mdbook`][mdbook]. To install it you'll need `cargo`
-installed. If you don't have any Rust tooling installed, you'll need to install
-[`rustup`][rustup] first. Follow the instructions on the site in order to get
-setup.
+The book is made using [`mdbook`][mdbook]. To install it you'll need `cargo` installed. If you don't have any Rust tooling installed, you'll need to install [`rustup`][rustup] first. Follow the instructions on the site in order to get
+set up.
 
 Once you have that done then just do the following:
 
@@ -45,28 +43,20 @@ $ cargo install mdbook
 ```
 
 Make sure the `cargo install` directory is in your `$PATH` so that you can run
-the binary.
+the mdbook binary.
 
-Now just run this command from this directory:
-
-```bash
-$ mdbook build
-```
-
-This will build the book and output files into a directory called `book`. From
-there you can navigate to the `index.html` file to view it in your browser. You
-could also run the following command to automatically generate changes if you
-want to look at changes you might be making to it:
+Now just run this command from root directory of your local git clone of the book:
 
 ```bash
 $ mdbook serve
 ```
 
-This will automatically generate the files as you make changes and serves them
-locally so you can view them easily without having to call `build` every time.
+This will serve the book locally on the `localhost:3000` port for you to read in your web browser. 
 
-The files are all written in Markdown so if you don't want to generate the book
-to read them then you can read them from the `src` directory.
+If you wish to contribute fixes or changes to this book, running `mdbook serve` in your terminal will automatically generate and serve the files as you make changes.
+
+Alternatively, the files are all written in Markdown so if you don't want to generate the book
+to read them, then you can open the *.md files in the `src` directory.
 
 [mdbook]: https://github.com/rust-lang-nursery/mdBook
 [rustup]: https://github.com/rust-lang-nursery/rustup.rs/
