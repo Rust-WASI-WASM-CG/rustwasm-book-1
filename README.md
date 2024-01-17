@@ -25,7 +25,11 @@ If you would like to start learning how to use Rust and WebAssembly together,
 
 [Open issues for improving the Rust and WebAssembly book.][book-issues]
 
-[book-issues]: https://github.com/rustwasm/book/issues
+[For issues on the original book see here.][original-book-issues]
+
+[book-issues]: https://github.com/Rust-WASI-WASM-CG/rustwasm-book-1/issues
+
+[original-book-issues]: https://github.com/rustwasm/book/issues
 
 ## Building the Book
 
