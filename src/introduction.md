@@ -1,6 +1,6 @@
 # Rust 🦀 and WebAssembly 🕸
 
-This small book describes how to use [Rust][] and [WebAssembly][] together.
+This small book describes how to use [Rust][Rust] and [WebAssembly][WebAssembly] together.
 
 ## Who is this book for?
 
@@ -40,4 +40,4 @@ pull request!**][issues]
 [background]: ./background-and-concepts.html
 [tutorial]: ./game-of-life/introduction.html
 [reference]: ./reference/index.html
-[issues]: https://github.com/rust-wasm-wasi/rust-and-wasm-book/issues
+[issues]: https://github.com/WASM-WASI-rs/book-rust-and-wasm/issues
