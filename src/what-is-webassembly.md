@@ -50,7 +50,12 @@ For more information about the work happening on the WASI specification, [start 
 
 As of *today*, however, WASM is primarily used in one of two ways:
 1) as a way to speed up compute-intensive parts of JavaScript (JS) applications, for instance by creating WASM modules to use on the client-side Web, in [NodeJS][Node.js], Deno, or other JS runtimes, or
-2) as a way of building fully WASM-based applications using frameworks that compile to `*.wasm`, such as [Leptos][leptos], [Dioxus][dioxus], or [Yew][yew].
+2) as a way of building fully WASM-based applications using frameworks that compile to `*.wasm`, such as [Leptos][leptos], [Dioxus][dioxus], or [Yew][yew] which are all written in Rust.
+
+This guide will focus primarily on writing WASM for client-side web apps, using both JS and Rust-based WASM frameworks. 
+If you wish to learn more about WASI and server-side uses of WebAssembly, we recommend visiting [the ByteCode Alliances's][bytecode-alliance] ["WasmTime" project website][wasmtime], which is where the development of the WASI specification is ongoing.
+You can read the [WasmTime book here][wasmtime-book].
+
 
 [memory model]: https://webassembly.github.io/spec/core/syntax/modules.html#syntax-mem
 [memory can be grown]: https://webassembly.github.io/spec/core/syntax/instructions.html#syntax-instr-memory
@@ -63,8 +68,11 @@ As of *today*, however, WASM is primarily used in one of two ways:
 [wasi-group]: https://github.com/WebAssembly/WASI/blob/main/Charter.md
 [wasi]: https://wasi.dev
 
+[Node.js]: https://nodejs.org
 [leptos]: https://leptos.dev
 [dioxus]: https://dioxuslabs.com
 [yew]: https://yew.rs
 
-[Node.js]: https://nodejs.org
+[bytecode-alliance]: https://bytecodealliance.org/
+[wasmtime]: https://wasmtime.dev
+[wasmtime-book]: https://docs.wasmtime.dev
