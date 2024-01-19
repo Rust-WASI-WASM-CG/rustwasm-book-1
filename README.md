@@ -7,7 +7,7 @@
   <h3>
     <a href="https://rust-wasm-wasi.github.io/rust-and-wasm-book/">Read the Book</a>
     <span> | </span>
-    <a href="https://github.com/Rust-WASI-WASI/rustwasm-book/blob/master/CONTRIBUTING.md">Contributing</a>
+    <a href="https://github.com/Rust-WASM-WASI/rust-and-wasm-book/CONTRIBUTING.md">Contributing</a>
     <span> | </span>
     <a href="https://discordapp.com/channels/442252698964721669/443151097398296587">Chat</a>
   </h3>
