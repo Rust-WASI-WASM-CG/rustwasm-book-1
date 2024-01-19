@@ -5,14 +5,14 @@
   <strong>This small book describes how to use Rust and WebAssembly together.  It also consists of tutorials with cool exercises.</strong>
 
   <h3>
-    <a href="https://rustwasm.github.io/docs/book/">Read the Book</a>
+    <a href="https://rust-wasm-wasi.github.io/rust-and-wasm-book-1/">Read the Book</a>
     <span> | </span>
-    <a href="https://github.com/rustwasm/book/blob/master/CONTRIBUTING.md">Contributing</a>
+    <a href="https://github.com/Rust-WASI-WASI/rustwasm-book-1/blob/master/CONTRIBUTING.md">Contributing</a>
     <span> | </span>
     <a href="https://discordapp.com/channels/442252698964721669/443151097398296587">Chat</a>
   </h3>
 
-  <sub>Built with 🦀🕸 by <a href="https://rustwasm.github.io/">The Rust and WebAssembly Working Group & the Rust WASM-WASI contributors </a></sub>
+  <sub>Built with 🦀🕸 by <a href="https://github.com/Rust-WASM-WASI">The Rust and WebAssembly Working Group & the Rust WASM-WASI contributors </a></sub>
 </div>
 
 ## About
@@ -27,7 +27,7 @@ If you would like to start learning how to use Rust and WebAssembly together,
 
 [For issues on the original book see here.][original-book-issues]
 
-[book-issues]: https://github.com/Rust-WASI-WASM-CG/rustwasm-book-1/issues
+[book-issues]: https://github.com/Rust-WASI-WASI/rustwasm-book-1/issues
 
 [original-book-issues]: https://github.com/rustwasm/book/issues
 
@@ -60,4 +60,4 @@ to read them, then you can open the *.md files in the `src` directory.
 
 [mdbook]: https://github.com/rust-lang-nursery/mdBook
 [rustup]: https://github.com/rust-lang-nursery/rustup.rs/
-[book]: https://rustwasm.github.io/book/game-of-life/introduction.html
+[book]: https://rust-wasm-wasi.github.io/rust-and-wasm-book-1/game-of-life/introduction.html
