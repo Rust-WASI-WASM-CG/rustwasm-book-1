@@ -53,6 +53,9 @@ As of *today*, however, WASM is primarily used in one of two ways:
 2) as a way of building fully WASM-based applications using frameworks that compile to `*.wasm`, such as [Leptos][leptos], [Dioxus][dioxus], or [Yew][yew] which are all written in Rust.
 
 This guide will focus primarily on writing WASM for client-side web apps, using both JS and Rust-based WASM frameworks. 
+
+<br/>
+
 If you wish to learn more about WASI and server-side uses of WebAssembly, we recommend visiting [the ByteCode Alliances's][bytecode-alliance] ["WasmTime" project website][wasmtime], which is where the development of the WASI specification is ongoing.
 You can read the [WasmTime book here][wasmtime-book].
 
