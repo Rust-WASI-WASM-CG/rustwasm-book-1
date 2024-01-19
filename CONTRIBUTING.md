@@ -37,6 +37,6 @@ Thank you for helping us make information about these technologies available to 
 We welcome more contributions from you.
 
 
-[coc]: https://github.com/rust-wasm-wasi/rust-and-wasm-book/blob/master/CODE_OF_CONDUCT.md
-[new-issues]: https://github.com/rust-wasm-wasi/rust-and-wasm-book/issues/new
-[open-issues]: https://github.com/rust-wasm-wasi/rust-and-wasm-book/issues
+[coc]: https://github.com/WASM-WASI-rs/book-rust-and-wasm/blob/master/CODE_OF_CONDUCT.md
+[new-issues]: https://github.com/WASM-WASI-rs/book-rust-and-wasm/issues/new
+[open-issues]: https://github.com/WASM-WASI-rs/book-rust-and-wasm/issues
